@@ -14,7 +14,7 @@ def determine_grade(score):
         print("Invalid score")
     elif score >= 90:
         print("Excellent")
-    elif score > 50:
+    elif score >= 50:
         print("Passable")
     else:
         return "Bad"
